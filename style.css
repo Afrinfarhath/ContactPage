@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  /* box sizing kodukonund it wont break */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  padding: 10px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto; 
+  /* auto is for proper allignemnt  */
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  /* edge ethumba downward  ayt varum */
+  gap: 1 rem;
+  justify-content: center;
+}
+
+.images img {
+  width: 200px;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* media  queiries used to adjust sizes first start with mobile */
